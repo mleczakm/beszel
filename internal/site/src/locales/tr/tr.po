@@ -426,11 +426,11 @@ msgstr "Bağlantı kesildi"
 
 #: src/lib/alerts.ts
 msgid "Container"
-msgstr ""
+msgstr "Konteyner"
 
 #: src/lib/alerts.ts
 msgid "Container Health"
-msgstr ""
+msgstr "Konteyner Sağlığı"
 
 #: src/components/routes/system.tsx
 msgid "Containers"
@@ -1757,7 +1757,7 @@ msgstr "5 dakikalık yük ortalaması bir eşiği aştığında tetiklenir"
 
 #: src/lib/alerts.ts
 msgid "Triggers when a Docker container's health check reports unhealthy"
-msgstr ""
+msgstr "Bir Docker konteynerinin sağlık kontrolü sağlıksız durumunu bildirdiğinde tetiklenir"
 
 #: src/lib/alerts.ts
 msgid "Triggers when any sensor exceeds a threshold"
@@ -1799,7 +1799,7 @@ msgstr "Tür"
 
 #: src/lib/alerts.ts
 msgid "Unhealthy"
-msgstr ""
+msgstr "Sağlıksız"
 
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Unit file"

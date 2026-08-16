@@ -426,11 +426,11 @@ msgstr "Povezava je prekinjena"
 
 #: src/lib/alerts.ts
 msgid "Container"
-msgstr ""
+msgstr "Vsebnik"
 
 #: src/lib/alerts.ts
 msgid "Container Health"
-msgstr ""
+msgstr "Zdravje vsebnika"
 
 #: src/components/routes/system.tsx
 msgid "Containers"
@@ -1757,7 +1757,7 @@ msgstr "Sproži se, ko 5-minutna povprečna obremenitev preseže prag"
 
 #: src/lib/alerts.ts
 msgid "Triggers when a Docker container's health check reports unhealthy"
-msgstr ""
+msgstr "Sproži se, ko preverjanje zdravja vsebnika Docker javi stanje nezdravo"
 
 #: src/lib/alerts.ts
 msgid "Triggers when any sensor exceeds a threshold"
@@ -1799,7 +1799,7 @@ msgstr "Vrsta"
 
 #: src/lib/alerts.ts
 msgid "Unhealthy"
-msgstr ""
+msgstr "Nezdrav"
 
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Unit file"

@@ -426,11 +426,11 @@ msgstr "Mất kết nối"
 
 #: src/lib/alerts.ts
 msgid "Container"
-msgstr ""
+msgstr "Container"
 
 #: src/lib/alerts.ts
 msgid "Container Health"
-msgstr ""
+msgstr "Tình trạng sức khỏe container"
 
 #: src/components/routes/system.tsx
 msgid "Containers"
@@ -1757,7 +1757,7 @@ msgstr "Kích hoạt khi tải trung bình 5 phút vượt quá ngưỡng"
 
 #: src/lib/alerts.ts
 msgid "Triggers when a Docker container's health check reports unhealthy"
-msgstr ""
+msgstr "Kích hoạt khi kiểm tra sức khỏe (health check) của container Docker báo cáo trạng thái không khỏe mạnh"
 
 #: src/lib/alerts.ts
 msgid "Triggers when any sensor exceeds a threshold"
@@ -1799,7 +1799,7 @@ msgstr "Loại"
 
 #: src/lib/alerts.ts
 msgid "Unhealthy"
-msgstr ""
+msgstr "Không khỏe mạnh"
 
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Unit file"

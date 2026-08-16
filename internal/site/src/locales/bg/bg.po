@@ -426,11 +426,11 @@ msgstr "Връзката е прекъсната"
 
 #: src/lib/alerts.ts
 msgid "Container"
-msgstr ""
+msgstr "Контейнер"
 
 #: src/lib/alerts.ts
 msgid "Container Health"
-msgstr ""
+msgstr "Здраве на контейнера"
 
 #: src/components/routes/system.tsx
 msgid "Containers"
@@ -1757,7 +1757,7 @@ msgstr "Задейства се, когато употребата на паме
 
 #: src/lib/alerts.ts
 msgid "Triggers when a Docker container's health check reports unhealthy"
-msgstr ""
+msgstr "Задейства се, когато проверката за състояние на Docker контейнер докладва нездравословно състояние"
 
 #: src/lib/alerts.ts
 msgid "Triggers when any sensor exceeds a threshold"
@@ -1799,7 +1799,7 @@ msgstr "Тип"
 
 #: src/lib/alerts.ts
 msgid "Unhealthy"
-msgstr ""
+msgstr "Нездрав"
 
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Unit file"

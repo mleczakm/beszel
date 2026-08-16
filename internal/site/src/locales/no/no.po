@@ -426,11 +426,11 @@ msgstr "Tilkoblingen er nede"
 
 #: src/lib/alerts.ts
 msgid "Container"
-msgstr ""
+msgstr "Container"
 
 #: src/lib/alerts.ts
 msgid "Container Health"
-msgstr ""
+msgstr "Containerhelse"
 
 #: src/components/routes/system.tsx
 msgid "Containers"
@@ -1757,7 +1757,7 @@ msgstr "Slår inn når gjennomsnittsbelastningen over 5 minutter overstiger en g
 
 #: src/lib/alerts.ts
 msgid "Triggers when a Docker container's health check reports unhealthy"
-msgstr ""
+msgstr "Slår inn når helsesjekken til en Docker-container rapporterer usunn"
 
 #: src/lib/alerts.ts
 msgid "Triggers when any sensor exceeds a threshold"
@@ -1799,7 +1799,7 @@ msgstr ""
 
 #: src/lib/alerts.ts
 msgid "Unhealthy"
-msgstr ""
+msgstr "Usunn"
 
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Unit file"

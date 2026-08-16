@@ -426,11 +426,11 @@ msgstr "Connexion interrompue"
 
 #: src/lib/alerts.ts
 msgid "Container"
-msgstr ""
+msgstr "Conteneur"
 
 #: src/lib/alerts.ts
 msgid "Container Health"
-msgstr ""
+msgstr "Santé du conteneur"
 
 #: src/components/routes/system.tsx
 msgid "Containers"
@@ -1757,7 +1757,7 @@ msgstr "Se déclenche lorsque la charge moyenne sur 5 minutes dépasse un seuil"
 
 #: src/lib/alerts.ts
 msgid "Triggers when a Docker container's health check reports unhealthy"
-msgstr ""
+msgstr "Se déclenche lorsque le contrôle de santé (healthcheck) d'un conteneur Docker le signale comme non sain"
 
 #: src/lib/alerts.ts
 msgid "Triggers when any sensor exceeds a threshold"
@@ -1799,7 +1799,7 @@ msgstr ""
 
 #: src/lib/alerts.ts
 msgid "Unhealthy"
-msgstr ""
+msgstr "Non sain"
 
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Unit file"

@@ -426,11 +426,11 @@ msgstr "Koneksi terputus"
 
 #: src/lib/alerts.ts
 msgid "Container"
-msgstr ""
+msgstr "Kontainer"
 
 #: src/lib/alerts.ts
 msgid "Container Health"
-msgstr ""
+msgstr "Kesehatan Kontainer"
 
 #: src/components/routes/system.tsx
 msgid "Containers"
@@ -1757,7 +1757,7 @@ msgstr "Dipicu ketika rata-rata beban 5 menit melebihi ambang batas"
 
 #: src/lib/alerts.ts
 msgid "Triggers when a Docker container's health check reports unhealthy"
-msgstr ""
+msgstr "Dipicu ketika pemeriksaan kesehatan (health check) kontainer Docker melaporkan kondisi tidak sehat"
 
 #: src/lib/alerts.ts
 msgid "Triggers when any sensor exceeds a threshold"
@@ -1799,7 +1799,7 @@ msgstr "Tipe"
 
 #: src/lib/alerts.ts
 msgid "Unhealthy"
-msgstr ""
+msgstr "Tidak sehat"
 
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Unit file"

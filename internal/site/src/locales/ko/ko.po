@@ -426,11 +426,11 @@ msgstr "연결이 끊겼습니다"
 
 #: src/lib/alerts.ts
 msgid "Container"
-msgstr ""
+msgstr "컨테이너"
 
 #: src/lib/alerts.ts
 msgid "Container Health"
-msgstr ""
+msgstr "컨테이너 상태"
 
 #: src/components/routes/system.tsx
 msgid "Containers"
@@ -1757,7 +1757,7 @@ msgstr "5분 부하 평균이 임계값을 초과하면 트리거됩니다."
 
 #: src/lib/alerts.ts
 msgid "Triggers when a Docker container's health check reports unhealthy"
-msgstr ""
+msgstr "Docker 컨테이너의 상태 확인(health check)에서 비정상 상태가 보고되면 트리거됩니다"
 
 #: src/lib/alerts.ts
 msgid "Triggers when any sensor exceeds a threshold"
@@ -1799,7 +1799,7 @@ msgstr "유형"
 
 #: src/lib/alerts.ts
 msgid "Unhealthy"
-msgstr ""
+msgstr "비정상"
 
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Unit file"

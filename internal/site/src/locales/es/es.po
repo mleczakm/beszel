@@ -426,11 +426,11 @@ msgstr "La conexión está caída"
 
 #: src/lib/alerts.ts
 msgid "Container"
-msgstr ""
+msgstr "Contenedor"
 
 #: src/lib/alerts.ts
 msgid "Container Health"
-msgstr ""
+msgstr "Estado del contenedor"
 
 #: src/components/routes/system.tsx
 msgid "Containers"
@@ -1757,7 +1757,7 @@ msgstr "Se activa cuando la carga media de 5 minutos supera un umbral"
 
 #: src/lib/alerts.ts
 msgid "Triggers when a Docker container's health check reports unhealthy"
-msgstr ""
+msgstr "Se activa cuando el healthcheck de un contenedor Docker indica un estado no saludable"
 
 #: src/lib/alerts.ts
 msgid "Triggers when any sensor exceeds a threshold"
@@ -1799,7 +1799,7 @@ msgstr "Tipo"
 
 #: src/lib/alerts.ts
 msgid "Unhealthy"
-msgstr ""
+msgstr "No saludable"
 
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Unit file"
