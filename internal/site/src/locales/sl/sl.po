@@ -251,6 +251,7 @@ msgid "Bat"
 msgstr "Baterija"
 
 #: src/components/routes/system/charts/sensor-charts.tsx
+#: src/components/routes/system/charts/sensor-charts.tsx
 #: src/lib/alerts.ts
 msgid "Battery"
 msgstr "Baterija"
@@ -423,6 +424,14 @@ msgstr "Konflikti"
 msgid "Connection is down"
 msgstr "Povezava je prekinjena"
 
+#: src/lib/alerts.ts
+msgid "Container"
+msgstr ""
+
+#: src/lib/alerts.ts
+msgid "Container Health"
+msgstr ""
+
 #: src/components/routes/system.tsx
 msgid "Containers"
 msgstr "Vsebniki"
@@ -470,6 +479,10 @@ msgstr "Kopiraj Linux ukaz"
 #: src/components/systems-table/systems-table-columns.tsx
 msgid "Copy name"
 msgstr "Kopiraj ime"
+
+#: src/components/routes/settings/tokens-fingerprints.tsx
+msgid "Copy public key"
+msgstr ""
 
 #: src/components/copy-to-clipboard.tsx
 msgid "Copy text"
@@ -547,6 +560,8 @@ msgid "Cumulative Upload"
 msgstr "Kumulativno nalaganje"
 
 #. Context: Battery state
+#. Context: Battery state
+#: src/components/routes/system/charts/sensor-charts.tsx
 #: src/components/routes/system/charts/sensor-charts.tsx
 msgid "Current state"
 msgstr "Trenutno stanje"
@@ -717,7 +732,6 @@ msgstr "Vnesite svoje enkratno geslo."
 msgid "Ephemeral"
 msgstr "Prehodni"
 
-#: src/components/login/auth-form.tsx
 #: src/components/routes/settings/alerts-history-data-table.tsx
 #: src/components/routes/settings/config-yaml.tsx
 #: src/components/routes/settings/heartbeat.tsx
@@ -808,6 +822,10 @@ msgstr "Opozorila ni bilo mogoče posodobiti"
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Failed: {0}"
 msgstr "Neuspešno: {0}"
+
+#: src/components/routes/system/charts/sensor-charts.tsx
+msgid "Fans"
+msgstr ""
 
 #: src/components/containers-table/containers-table.tsx
 #: src/components/routes/settings/alerts-history-data-table.tsx
@@ -1311,6 +1329,10 @@ msgstr "Prednostni jezik"
 msgid "Process started"
 msgstr "Proces začet"
 
+#: src/components/routes/settings/tokens-fingerprints.tsx
+msgid "Public key"
+msgstr ""
+
 #. Use 'Key' if your language requires many more characters
 #: src/components/add-system.tsx
 msgid "Public Key"
@@ -1550,6 +1572,11 @@ msgstr "Swap prostor, ki ga uporablja sistem"
 msgid "Swap Usage"
 msgstr "Swap uporaba"
 
+#: src/components/mode-toggle.tsx
+#: src/components/mode-toggle.tsx
+msgid "Switch theme"
+msgstr ""
+
 #: src/components/add-system.tsx
 #: src/components/alerts-history-columns.tsx
 #: src/components/containers-table/containers-table-columns.tsx
@@ -1564,6 +1591,10 @@ msgstr "Swap uporaba"
 #: src/lib/alerts.ts
 msgid "System"
 msgstr "Sistemsko"
+
+#: src/components/routes/system/charts/sensor-charts.tsx
+msgid "System fan speeds (RPM)"
+msgstr ""
 
 #: src/components/routes/system/charts/load-average-chart.tsx
 msgid "System load averages over time"
@@ -1659,8 +1690,8 @@ msgstr "E-pošta za"
 
 #: src/components/mode-toggle.tsx
 #: src/components/mode-toggle.tsx
-msgid "Toggle theme"
-msgstr "Obrni temo"
+#~ msgid "Toggle theme"
+#~ msgstr "Obrni temo"
 
 #: src/components/add-system.tsx
 #: src/components/routes/settings/tokens-fingerprints.tsx
@@ -1725,6 +1756,10 @@ msgid "Triggers when 5 minute load average exceeds a threshold"
 msgstr "Sproži se, ko 5-minutna povprečna obremenitev preseže prag"
 
 #: src/lib/alerts.ts
+msgid "Triggers when a Docker container's health check reports unhealthy"
+msgstr ""
+
+#: src/lib/alerts.ts
 msgid "Triggers when any sensor exceeds a threshold"
 msgstr "Sproži se, ko kateri koli senzor preseže prag"
 
@@ -1761,6 +1796,10 @@ msgstr "Sproži se, ko uporaba katerega koli diska preseže prag"
 #: src/components/routes/system/smart-table.tsx
 msgid "Type"
 msgstr "Vrsta"
+
+#: src/lib/alerts.ts
+msgid "Unhealthy"
+msgstr ""
 
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Unit file"

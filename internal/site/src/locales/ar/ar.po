@@ -251,6 +251,7 @@ msgid "Bat"
 msgstr "بطارية"
 
 #: src/components/routes/system/charts/sensor-charts.tsx
+#: src/components/routes/system/charts/sensor-charts.tsx
 #: src/lib/alerts.ts
 msgid "Battery"
 msgstr "البطارية"
@@ -423,6 +424,14 @@ msgstr "التعارضات"
 msgid "Connection is down"
 msgstr "الاتصال مقطوع"
 
+#: src/lib/alerts.ts
+msgid "Container"
+msgstr ""
+
+#: src/lib/alerts.ts
+msgid "Container Health"
+msgstr ""
+
 #: src/components/routes/system.tsx
 msgid "Containers"
 msgstr "الحاويات"
@@ -470,6 +479,10 @@ msgstr "نسخ أمر لينكس"
 #: src/components/systems-table/systems-table-columns.tsx
 msgid "Copy name"
 msgstr "نسخ الاسم"
+
+#: src/components/routes/settings/tokens-fingerprints.tsx
+msgid "Copy public key"
+msgstr ""
 
 #: src/components/copy-to-clipboard.tsx
 msgid "Copy text"
@@ -547,6 +560,8 @@ msgid "Cumulative Upload"
 msgstr "الرفع التراكمي"
 
 #. Context: Battery state
+#. Context: Battery state
+#: src/components/routes/system/charts/sensor-charts.tsx
 #: src/components/routes/system/charts/sensor-charts.tsx
 msgid "Current state"
 msgstr "الحالة الحالية"
@@ -717,7 +732,6 @@ msgstr "أدخل كلمة المرور لمرة واحدة الخاصة بك."
 msgid "Ephemeral"
 msgstr "مؤقت"
 
-#: src/components/login/auth-form.tsx
 #: src/components/routes/settings/alerts-history-data-table.tsx
 #: src/components/routes/settings/config-yaml.tsx
 #: src/components/routes/settings/heartbeat.tsx
@@ -808,6 +822,10 @@ msgstr "فشل في تحديث التنبيه"
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Failed: {0}"
 msgstr "فشل: {0}"
+
+#: src/components/routes/system/charts/sensor-charts.tsx
+msgid "Fans"
+msgstr ""
 
 #: src/components/containers-table/containers-table.tsx
 #: src/components/routes/settings/alerts-history-data-table.tsx
@@ -1311,6 +1329,10 @@ msgstr "اللغة المفضلة"
 msgid "Process started"
 msgstr "تم بدء العملية"
 
+#: src/components/routes/settings/tokens-fingerprints.tsx
+msgid "Public key"
+msgstr ""
+
 #. Use 'Key' if your language requires many more characters
 #: src/components/add-system.tsx
 msgid "Public Key"
@@ -1550,6 +1572,11 @@ msgstr "مساحة التبديل المستخدمة من قبل النظام"
 msgid "Swap Usage"
 msgstr "استخدام التبديل"
 
+#: src/components/mode-toggle.tsx
+#: src/components/mode-toggle.tsx
+msgid "Switch theme"
+msgstr ""
+
 #: src/components/add-system.tsx
 #: src/components/alerts-history-columns.tsx
 #: src/components/containers-table/containers-table-columns.tsx
@@ -1564,6 +1591,10 @@ msgstr "استخدام التبديل"
 #: src/lib/alerts.ts
 msgid "System"
 msgstr "النظام"
+
+#: src/components/routes/system/charts/sensor-charts.tsx
+msgid "System fan speeds (RPM)"
+msgstr ""
 
 #: src/components/routes/system/charts/load-average-chart.tsx
 msgid "System load averages over time"
@@ -1659,8 +1690,8 @@ msgstr "إلى البريد الإشباكي"
 
 #: src/components/mode-toggle.tsx
 #: src/components/mode-toggle.tsx
-msgid "Toggle theme"
-msgstr "تبديل السمة"
+#~ msgid "Toggle theme"
+#~ msgstr "تبديل السمة"
 
 #: src/components/add-system.tsx
 #: src/components/routes/settings/tokens-fingerprints.tsx
@@ -1725,6 +1756,10 @@ msgid "Triggers when 5 minute load average exceeds a threshold"
 msgstr "يتم التفعيل عندما يتجاوز متوسط التحميل لمدة 5 دقائق عتبة معينة"
 
 #: src/lib/alerts.ts
+msgid "Triggers when a Docker container's health check reports unhealthy"
+msgstr ""
+
+#: src/lib/alerts.ts
 msgid "Triggers when any sensor exceeds a threshold"
 msgstr "يتم التفعيل عندما يتجاوز أي مستشعر عتبة معينة"
 
@@ -1761,6 +1796,10 @@ msgstr "يتم التفعيل عندما يتجاوز استخدام أي قرص
 #: src/components/routes/system/smart-table.tsx
 msgid "Type"
 msgstr "النوع"
+
+#: src/lib/alerts.ts
+msgid "Unhealthy"
+msgstr ""
 
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Unit file"

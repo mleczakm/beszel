@@ -251,6 +251,7 @@ msgid "Bat"
 msgstr "Batt"
 
 #: src/components/routes/system/charts/sensor-charts.tsx
+#: src/components/routes/system/charts/sensor-charts.tsx
 #: src/lib/alerts.ts
 msgid "Battery"
 msgstr "Batterie"
@@ -423,6 +424,14 @@ msgstr "Konflikte"
 msgid "Connection is down"
 msgstr "Verbindung unterbrochen"
 
+#: src/lib/alerts.ts
+msgid "Container"
+msgstr ""
+
+#: src/lib/alerts.ts
+msgid "Container Health"
+msgstr ""
+
 #: src/components/routes/system.tsx
 msgid "Containers"
 msgstr "Container"
@@ -470,6 +479,10 @@ msgstr "Linux-Befehl kopieren"
 #: src/components/systems-table/systems-table-columns.tsx
 msgid "Copy name"
 msgstr "Name kopieren"
+
+#: src/components/routes/settings/tokens-fingerprints.tsx
+msgid "Copy public key"
+msgstr ""
 
 #: src/components/copy-to-clipboard.tsx
 msgid "Copy text"
@@ -547,6 +560,8 @@ msgid "Cumulative Upload"
 msgstr "Kumulativer Upload"
 
 #. Context: Battery state
+#. Context: Battery state
+#: src/components/routes/system/charts/sensor-charts.tsx
 #: src/components/routes/system/charts/sensor-charts.tsx
 msgid "Current state"
 msgstr "Aktueller Zustand"
@@ -717,7 +732,6 @@ msgstr "Geben Sie Ihr Einmalpasswort ein."
 msgid "Ephemeral"
 msgstr "Flüchtig"
 
-#: src/components/login/auth-form.tsx
 #: src/components/routes/settings/alerts-history-data-table.tsx
 #: src/components/routes/settings/config-yaml.tsx
 #: src/components/routes/settings/heartbeat.tsx
@@ -808,6 +822,10 @@ msgstr "Warnung konnte nicht aktualisiert werden"
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Failed: {0}"
 msgstr "Fehlgeschlagen: {0}"
+
+#: src/components/routes/system/charts/sensor-charts.tsx
+msgid "Fans"
+msgstr ""
 
 #: src/components/containers-table/containers-table.tsx
 #: src/components/routes/settings/alerts-history-data-table.tsx
@@ -1311,6 +1329,10 @@ msgstr "Bevorzugte Sprache"
 msgid "Process started"
 msgstr "Prozess gestartet"
 
+#: src/components/routes/settings/tokens-fingerprints.tsx
+msgid "Public key"
+msgstr ""
+
 #. Use 'Key' if your language requires many more characters
 #: src/components/add-system.tsx
 msgid "Public Key"
@@ -1550,6 +1572,11 @@ msgstr "Vom System genutzter Swap-Speicher"
 msgid "Swap Usage"
 msgstr "Swap-Nutzung"
 
+#: src/components/mode-toggle.tsx
+#: src/components/mode-toggle.tsx
+msgid "Switch theme"
+msgstr ""
+
 #: src/components/add-system.tsx
 #: src/components/alerts-history-columns.tsx
 #: src/components/containers-table/containers-table-columns.tsx
@@ -1563,6 +1590,10 @@ msgstr "Swap-Nutzung"
 #: src/components/systems-table/systems-table-columns.tsx
 #: src/lib/alerts.ts
 msgid "System"
+msgstr ""
+
+#: src/components/routes/system/charts/sensor-charts.tsx
+msgid "System fan speeds (RPM)"
 msgstr ""
 
 #: src/components/routes/system/charts/load-average-chart.tsx
@@ -1659,8 +1690,8 @@ msgstr "An E-Mail(s)"
 
 #: src/components/mode-toggle.tsx
 #: src/components/mode-toggle.tsx
-msgid "Toggle theme"
-msgstr "Darstellung umschalten"
+#~ msgid "Toggle theme"
+#~ msgstr "Darstellung umschalten"
 
 #: src/components/add-system.tsx
 #: src/components/routes/settings/tokens-fingerprints.tsx
@@ -1725,6 +1756,10 @@ msgid "Triggers when 5 minute load average exceeds a threshold"
 msgstr "Löst aus, wenn der Lastdurchschnitt der letzten 5 Minuten einen Schwellenwert überschreitet"
 
 #: src/lib/alerts.ts
+msgid "Triggers when a Docker container's health check reports unhealthy"
+msgstr ""
+
+#: src/lib/alerts.ts
 msgid "Triggers when any sensor exceeds a threshold"
 msgstr "Löst aus, wenn ein Sensor einen Schwellenwert überschreitet"
 
@@ -1761,6 +1796,10 @@ msgstr "Löst aus, wenn die Nutzung einer Festplatte einen Schwellenwert übersc
 #: src/components/routes/system/smart-table.tsx
 msgid "Type"
 msgstr "Typ"
+
+#: src/lib/alerts.ts
+msgid "Unhealthy"
+msgstr ""
 
 #: src/components/systemd-table/systemd-table.tsx
 msgid "Unit file"
